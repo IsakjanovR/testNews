@@ -4,6 +4,7 @@
             в личном кабинеты вы можете публиковать новости
             <a href="http://localhost/testNews/news/create">Написать новость</a>
             а так же просматривать все новости которые были опубликованны вами</p>
+        <br></br>
 <div class="posts">
         <?php foreach ($news_user as $news): ?>
             <div

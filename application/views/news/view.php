@@ -19,10 +19,11 @@
                 <div class="flex-viewport" style="overflow: hidden; position: relative; height: 539px;">
                                 <?php echo '<img class="attachment-post-image size-post-image" sizes="(max-width: 816px) 100vw, 816px" draggable="false" width="816" height="544" src="/testNews/img/' . $news['image'] . '" alt="" >' ?>
                 </div>
+                <br>
             </div>
             <div class="clear"></div>
             <div class="post-inner">
-                dfsfsees
+                <?php echo $news['text'];?>
                 <div class="post-content">
                 </div>
                 <div class="clear"></div>
